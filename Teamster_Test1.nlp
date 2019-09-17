@@ -1,0 +1,13 @@
+# Project description file
+
+project.name=Teamster_Test1
+project.version=6.6
+project.original.version=6.6
+product.name=NeoLoad
+product.original.name=NeoLoad
+product.original.version=7.0.0
+project.id=7782759a-c596-4e39-abd2-d1b0c0bc88b4
+project.config.path=config.zip
+project.config.storage=ZIP
+team.server.enabled=true
+team.server.project=/VCelest/Teamster.git

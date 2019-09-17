@@ -1,0 +1,34 @@
+<websocket-channel-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="websocket_channel" path="/" postType="2"
+    pushType="WEBSOCKET" recordedResponseCode="101" responseSize="0"
+    serverUid="push.services.mozilla.com" slaProfileEnabled="false"
+    uid="58c78d0d-bcae-419c-a862-f0b2f6f14920" useKeepAlive="false">
+    <response-matching extractionMethod="REGEXP_ONLY" regexp="" template="$1$"/>
+    <requestContentFileDescription>team/vus/@user@path/%resources%/recorded-requests/req_58c78d0d-bcae-419c-a862-f0b2f6f14920.txt</requestContentFileDescription>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.5"/>
+    <header name="Cache-Control" value="no-cache"/>
+    <header name="Connection" value="keep-alive, Upgrade"/>
+    <header name="Host" value="push.services.mozilla.com"/>
+    <header name="Origin" value="wss://push.services.mozilla.com/"/>
+    <header name="Pragma" value="no-cache"/>
+    <header name="Sec-WebSocket-Extensions" value="permessage-deflate"/>
+    <header name="Sec-WebSocket-Key" value="7XlhoJsFFYr7Vfac2nwryQ=="/>
+    <header name="Sec-WebSocket-Protocol" value="push-notification"/>
+    <header name="Sec-WebSocket-Version" value="13"/>
+    <header name="Upgrade" value="websocket"/>
+    <header name="User-Agent" value="Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12A366 Safari/600.1.4"/>
+    <responseHeaders>HTTP/1.1 101 Switching Protocols&#xd;
+Connection: Upgrade&#xd;
+Upgrade: websocket&#xd;
+Sec-WebSocket-Accept: P63odolLckIoU54VxSQZhGTM7z4=</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <push-handler filecount="1"
+        filename="team/vus/@user@path/%resources%/recorded-responses/websocket_3da365dc-673d-40f5-89f8-23b82bb8b396.dat" pushType="WEBSOCKET">
+        <result-handler responseSource="MESSAGE" type="REGEXP"/>
+    </push-handler>
+</websocket-channel-action>

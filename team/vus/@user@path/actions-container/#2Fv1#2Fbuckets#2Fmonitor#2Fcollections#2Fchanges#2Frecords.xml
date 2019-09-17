@@ -1,0 +1,55 @@
+<http-page executeResourcesDynamically="false"
+    name="/v1/buckets/monitor/collections/changes/records"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@user@path/%resources%/recorded-artifacts/ecf27ac2-fe39-4053-9017-f483591ed909.zip"
+    slaProfileEnabled="false" thinkTime="951"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="ecf27ac2-fe39-4053-9017-f483591ed909">
+    <embedded-action>c6db78b9-9ded-4de4-8494-c55e3b5119ca</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/v1/buckets/monitor/collections/changes/records"
+    path="/v1/buckets/monitor/collections/changes/records" postType="2"
+    recordedArtifactZipFileName="team/vus/@user@path/%resources%/recorded-artifacts/ecf27ac2-fe39-4053-9017-f483591ed909.zip"
+    recordedResponseCode="200" responseSize="11"
+    serverUid="firefox.settings.services.mozilla.com"
+    slaProfileEnabled="false" uid="c6db78b9-9ded-4de4-8494-c55e3b5119ca" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_c6db78b9-9ded-4de4-8494-c55e3b5119ca</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_c6db78b9-9ded-4de4-8494-c55e3b5119ca.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="_since"
+        recordRawValue="%221568678251019%22" separator="="
+        value="&quot;1568678251019&quot;" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="_expected"
+        recordRawValue="%221568678251019%22" separator="="
+        value="&quot;1568678251019&quot;" valueMode="USE_VALUE"/>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.5"/>
+    <header name="Cache-Control" value="no-cache"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="firefox.settings.services.mozilla.com"/>
+    <header name="Pragma" value="no-cache"/>
+    <header name="User-Agent" value="Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12A366 Safari/600.1.4"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Content-Type: application/json&#xd;
+Content-Length: 11&#xd;
+Connection: keep-alive&#xd;
+Access-Control-Expose-Headers: Content-Length, Last-Modified, Next-Page, Content-Type, Backoff, Retry-After, ETag, Expires, Cache-Control, Pragma, Alert&#xd;
+Cache-Control: max-age=3600&#xd;
+Expires: Tue, 17 Sep 2019 00:59:01 GMT&#xd;
+Last-Modified: Mon, 16 Sep 2019 23:57:31 GMT&#xd;
+Strict-Transport-Security: max-age=31536000&#xd;
+X-Content-Type-Options: nosniff&#xd;
+Date: Tue, 17 Sep 2019 10:23:57 GMT&#xd;
+ETag: "1568678251019"&#xd;
+X-Cache: Hit from cloudfront&#xd;
+Via: 1.1 70e52f6ccedfc0c8c49f2c5e580eb6ac.cloudfront.net (CloudFront)&#xd;
+X-Amz-Cf-Pop: DEL54-C3&#xd;
+X-Amz-Cf-Id: FByC3Z42XDGVk3PY8Zk9YG44FHh8Eo3Sn7Aon0NMp_byglQ-I4Ijmg==&#xd;
+Age: 2398</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

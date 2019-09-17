@@ -1,0 +1,1 @@
+{"messageType":"hello","broadcasts":{"remote-settings/monitor_changes":"\"1568105279739\""},"use_webpush":true,"uaid":"afe772b608b4479b8885d7ab6af2a8cf"}
